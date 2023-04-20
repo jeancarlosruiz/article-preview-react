@@ -1,0 +1,29 @@
+@import "../styles/index.css";
+
+.article {
+  width: min(calc(100% - 3rem), 45.625rem);
+  background-color: var(--White);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  gap: 2.25rem;
+  margin-inline: auto;
+  border-radius: var(--border-radius);
+}
+
+.drawers {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+@media screen and (min-width: 40.625em) {
+  .article {
+    width: 45.625rem;
+    grid-template-columns: 17.813rem 1fr;
+    grid-template-rows: auto;
+    gap: 2.5rem;
+  }
+
+  .drawers {
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+  }
+}

@@ -1,1 +1,31 @@
 @import "./normalize.css";
+
+:root {
+  /* Colors */
+  --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+  --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+  --Grayish-Blue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+  --White: hsla(0, 0%, 100%, 1);
+
+  /* Font Family */
+  --ff: "Manrope", sans-serif;
+
+  /* Font weight */
+  --fw-500: 500;
+  --fw-700: 700;
+
+  /* Font sizes */
+
+  --fs-title: clamp(1rem, 0.7845rem + 0.9195vw, 1.25rem);
+  --fs-body: 0.813rem;
+
+  /* Border Radius */
+  --border-radius: 0.625rem;
+}
+
+body {
+  font-family: var(--ff);
+  font-weight: var(--fw-500);
+  font-size: var(--fs-body);
+}

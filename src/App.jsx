@@ -1,9 +1,16 @@
-import styles from "./App.modules.css";
-import "./utilities/utils";
-import { useState } from "react";
+import styles from "./App.module.css";
+import Article from "./components/Article";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <main className={styles.container}>
+        <Article />
+      </main>
+    </>
+  );
 }
 
 export default App;
+
+// Si el state es falso ? "hide" ? no hide
