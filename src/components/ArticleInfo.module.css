@@ -1,8 +1,11 @@
 @import "../styles/index.css";
 
+.relative {
+  position: relative;
+}
+
 .wrapper {
   padding-inline: 2rem;
-  padding-block-end: 1.25rem;
 }
 
 .title {
@@ -24,7 +27,6 @@
     padding-inline: 0;
     padding-inline-end: 2.5rem;
     padding-block-start: 2rem;
-    padding-block-end: 2rem;
   }
 
   .paragraph {

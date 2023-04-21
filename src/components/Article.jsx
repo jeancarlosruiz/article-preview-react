@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../public/images/drawers.jpg";
+import img from "/images/drawers.jpg";
 import styles from "./Article.module.css";
 import ArticleInfo from "./ArticleInfo";
 

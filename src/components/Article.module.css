@@ -9,6 +9,7 @@
   gap: 2.25rem;
   margin-inline: auto;
   border-radius: var(--border-radius);
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
 }
 
 .drawers {

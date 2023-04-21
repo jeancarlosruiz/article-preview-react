@@ -4,6 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-block-end: 1.25rem;
+}
+
+.display {
+  display: none;
 }
 
 .porfileContainer {
@@ -41,4 +46,14 @@
 
 .shareButton svg {
   align-self: center;
+}
+
+@media screen and (min-width: 40.625em) {
+  .wrapper {
+    margin-block-end: 2rem;
+  }
+
+  .display {
+    display: flex;
+  }
 }
