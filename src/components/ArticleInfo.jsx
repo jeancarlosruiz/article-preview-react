@@ -7,13 +7,9 @@ function ArticleInfo() {
   const [value, setValue] = React.useState(false);
 
   const toggleShare = function () {
-    if (value === false) {
-      setValue(true);
-    }
-    if (value === true) {
-      setValue(false);
-    }
+    return value === false ? setValue(true) : setValue(false);
   };
+
   return (
     <>
       <div className={styles.relative}>

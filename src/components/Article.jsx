@@ -6,7 +6,7 @@ import ArticleInfo from "./ArticleInfo";
 function Article() {
   return (
     <article className={styles.article}>
-      <img className={styles.drawers} src={img} alt="imagen" />
+      <img className={styles.drawers} src={img} alt="drawers image" />
       <ArticleInfo />
     </article>
   );

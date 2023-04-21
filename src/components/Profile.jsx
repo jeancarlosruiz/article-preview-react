@@ -3,6 +3,7 @@ import VisuallyHidden from "../components/VisuallyHidden";
 import profileImg from "/images/avatar-michelle.jpg";
 
 function Profile({ toggleShare, value }) {
+  console.log(value);
   return (
     <>
       <div
@@ -14,7 +15,7 @@ function Profile({ toggleShare, value }) {
           <img
             className={styles.profileImg}
             src={profileImg}
-            alt="Profile img"
+            alt="Profile image"
           />
           <div>
             <h2 className={styles.name}>Michelle Appleton</h2>
