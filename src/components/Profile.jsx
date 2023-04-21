@@ -3,7 +3,6 @@ import VisuallyHidden from "../components/VisuallyHidden";
 import profileImg from "/images/avatar-michelle.jpg";
 
 function Profile({ toggleShare, value }) {
-  console.log(value);
   return (
     <>
       <div
